@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>ek-cloud-permission-api</module>
+        <module>ek-cloud-permission-provider</module>
+    </modules>
+    <parent>
+        <artifactId>ek-cloud-parent</artifactId>
+        <groupId>com.ouke.cloud</groupId>
+        <version>1.0</version>
+
+    </parent>
+    <groupId>com.ouke.cloud</groupId>
+    <artifactId>ek-cloud-permission</artifactId>
+    <version>1.0</version>
+    <name>ek-cloud-permission</name>
+    <description>Permission Management Module</description>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
+</project>

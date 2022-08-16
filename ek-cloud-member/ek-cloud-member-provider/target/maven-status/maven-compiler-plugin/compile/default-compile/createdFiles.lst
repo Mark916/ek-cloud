@@ -1,0 +1,8 @@
+com\ouke\cloud\App.class
+com\ouke\cloud\mapper\TDefaultMapper.class
+com\ouke\cloud\controller\TDefaultController.class
+com\ouke\cloud\entity\TDefault.class
+com\ouke\cloud\service\TDefaultService.class
+com\ouke\cloud\entity\TDefaultDto.class
+com\ouke\cloud\CodeGenerator.class
+com\ouke\cloud\service\impl\TDefaultServiceImpl.class

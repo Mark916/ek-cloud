@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.ouke.cloud</groupId>
+        <artifactId>ek-cloud-parent</artifactId>
+        <version>1.0</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>ek-cloud-member-api</module>
+        <module>ek-cloud-member-provider</module>
+    </modules>
+
+    <artifactId>ek-cloud-member</artifactId>
+    <version>1.0</version>
+    <name>ek-cloud-member</name>
+    <description>User Management Module</description>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <!-- <dependency>
+             <groupId>com.alibaba.cloud</groupId>
+             <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+         </dependency>-->
+
+        <dependency>
+            <groupId>com.ouke.cloud</groupId>
+            <artifactId>ek-cloud-support-discovery-nacos</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+</project>
