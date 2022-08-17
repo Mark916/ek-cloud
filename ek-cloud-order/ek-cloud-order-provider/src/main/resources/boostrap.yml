@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://113.125.82.182:8848
+        service: ek-cloud-order-provider

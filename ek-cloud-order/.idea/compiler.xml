@@ -10,5 +10,10 @@
         <module name="ek-cloud-order-api" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ek-cloud-order" target="1.8" />
+      <module name="ek-cloud-order-api" target="1.8" />
+      <module name="ek-cloud-order-provider" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

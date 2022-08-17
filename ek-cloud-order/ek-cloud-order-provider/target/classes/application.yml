@@ -1,24 +1,16 @@
 server:
-  port: 8081
+  port: 10737
 
 spring:
   application:
     name: ek-cloud-order-provider
   cloud:
     nacos:
-      server-addr: http://192.168.126.129:8848
       discovery:
-        service: ${spring.application.name}
-        group: ek-cloud-order
-        namespace: ek-cloud-dev
-      config:
         server-addr: http://192.168.126.129:8848
-        file-extension: yml
-
-
+        service: ek-cloud-order-provider
 logging:
   level:
-    root: debug
-    com.ouke.cloud: debug
+    root: INFO
   file:
     path: d:/ek-logs/ek-cloud-member
